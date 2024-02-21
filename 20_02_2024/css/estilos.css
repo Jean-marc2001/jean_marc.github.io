@@ -7,7 +7,6 @@ body {
     font-family:'Courier New', Courier, monospace;
     background-color: #000000;
     color: var(--main-color);
-    background-image: url(patron.png)
 }
 
 :root {
@@ -216,4 +215,7 @@ footer {
     height: 120px;
 }
 
-
+#bandera img{
+    width: 100px;
+    height: 120px;
+}
