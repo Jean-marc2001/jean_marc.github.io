@@ -7,7 +7,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     background-color: #000000;
     color: var(--main-color);
-    background-image: url("/20_02_2024/img/fondo.png");
+    background-image: url("/20_02_2024/img/fondo2.jpg");
     background-repeat: repeat;
 }
 
@@ -28,6 +28,11 @@ header {
 
 h1 {
     color: var(--main-color);
+    text-shadow: 1px 1px #ffffff;
+}
+
+#texto-cabecera{
+    text-shadow: 0.5px 0.5px #ffffff;
 }
 
 h2 {
@@ -160,7 +165,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 250px; /* Ajuste según necesidad */
-    text-align: left;
+    text-align: center;
 }
 
 .degree span {
@@ -188,7 +193,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    width: 250px; /* Ajuste según necesidad */
+    width: 250px;
     text-align: center;
 }
 
