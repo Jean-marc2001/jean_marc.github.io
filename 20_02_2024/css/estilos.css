@@ -7,6 +7,8 @@ body {
     font-family:'Courier New', Courier, monospace;
     background-color: #000000;
     color: var(--main-color);
+    background-image: url("/20_02_2024/img/fondo.png");
+    background-repeat: repeat;
 }
 
 :root {
@@ -158,7 +160,7 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     width: 250px; /* Ajuste según necesidad */
-    text-align: center;
+    text-align: left;
 }
 
 .degree span {
@@ -223,4 +225,8 @@ footer {
 #bandera2 img{
     width: 120px;
     height: 100px;
+}
+#bandera3 img{
+    width: 100px;
+    height: 70px;
 }
